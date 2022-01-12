@@ -1,6 +1,6 @@
 
 import pygame
-from random import randint
+import random
 
 def bubbleSort(arr):
     n = len(arr)
@@ -107,8 +107,6 @@ def draw(height,moving=-1,swap=-1,speed=50):
     pygame.time.delay(speed)    
             
 
-import pygame
-import random
 
 pygame.init()
 win = pygame.display.set_mode((550,550))
